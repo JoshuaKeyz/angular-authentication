@@ -1,0 +1,17 @@
+{
+  "name": "src",
+  "authors": [
+    "Joshua Oguma <joshua.oguma@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,39 @@
+.signup {
+  margin-top: 60px;
+}
+.signup__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.signup__inner-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.signup__heading {
+  text-align: center;
+}
+.signupForm__group {
+  margin-bottom: 20px;
+}
+.signupForm__label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.signupForm__control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: thin solid lightgrey;
+  padding: 0 5px;
+}
+.signupForm__btn {
+  float: right;
+  background-color: #ce0808;
+  border: thin solid lightgrey;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}

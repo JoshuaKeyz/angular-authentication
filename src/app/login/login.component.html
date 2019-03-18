@@ -1,0 +1,25 @@
+<article class="login">
+    <div class="login__container">
+      <div class="login__inner-container">
+        <h2 class="login__heading">Login</h2>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="loginForm__group">
+            <label class="loginForm__label"
+                for="phone">Phone</label>
+            <input 
+                class="loginForm__control" 
+                type="text" formControlName="phone">
+          </div>
+          <div class="loginForm__group">
+            <label 
+                class="loginForm__label"
+                for="password">Password</label>
+            <input 
+                class="loginForm__control"
+                type="password" formControlName="password">
+          </div>
+          <button class="loginForm__btn">Login</button>
+        </form>
+      </div>
+    </div>
+  </article>

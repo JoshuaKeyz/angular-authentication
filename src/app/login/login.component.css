@@ -1,0 +1,39 @@
+.login {
+  margin-top: 60px;
+}
+.login__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.login__inner-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.login__heading {
+  text-align: center;
+}
+.loginForm__group {
+  margin-bottom: 20px;
+}
+.loginForm__label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.loginForm__control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: thin solid lightgrey;
+  padding: 0 5px;
+}
+.loginForm__btn {
+  float: right;
+  background-color: #ce0808;
+  border: thin solid lightgrey;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}

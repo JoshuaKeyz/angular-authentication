@@ -1,0 +1,41 @@
+<article class="signup">
+  <div class="signup__container">
+    <div class="signup__inner-container">
+      <h2 class="signup__heading">Sign up</h2>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div class="signupForm__group">
+          <label 
+              class="signupForm__label"
+              for="first_name">First Name</label>
+          <input class="signupForm__control" 
+              type="text" 
+              formControlName="firstName">
+        </div>
+        <div class="signupForm__group">
+          <label 
+              class="signupForm__label" 
+              for="first_name">Last Name</label>
+          <input 
+              class="signupForm__control"
+              type="text" formControlName="lastName">
+        </div>
+        <div class="signupForm__group">
+          <label class="signupForm__label"
+              for="first_name">Phone</label>
+          <input 
+              class="signupForm__control" 
+              type="text" formControlName="phone">
+        </div>
+        <div class="signupForm__group">
+          <label 
+              class="signupForm__label"
+              for="first_name">Password</label>
+          <input 
+              class="signupForm__control"
+              type="password" formControlName="password">
+        </div>
+        <button class="signupForm__btn">Sign up</button>
+      </form>
+    </div>
+  </div>
+</article>
